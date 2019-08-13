@@ -1,7 +1,7 @@
 node {
     stage('Code Checkout') { // for display purposes
      echo 'Checout Code and clone it inside jenkins workspace.'
-     git 'https://github.com/itrainavengers/sonar-maven.git'
+     git 'https://github.com/thadiwada/nodejsapp.git'
    }
    stage('Build Test & Package') {
       echo 'Build the package'
